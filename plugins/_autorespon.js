@@ -19,7 +19,7 @@ handler.all = async function (m, { isBlocked }) {
 │ 
 ├ Hubungi @${global.owner[0]}
 └────
-`.trim(), 'Fokus Dot Id', 'PEMILIK BOT', ',owner', { contextInfo: { mentionedJid: [global.owner[0] + '@s.whatsapp.net'] } })
+`.trim(), 'anfebn', 'PEMILIK BOT', ',owner', { contextInfo: { mentionedJid: [global.owner[0] + '@s.whatsapp.net'] } })
     }
 
     // salam
