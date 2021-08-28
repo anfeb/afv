@@ -562,7 +562,7 @@ module.exports = {
 *telah menghapus pesan, ngapain di hapus tong? :'v*
 
 _jangan di matikan om biar gak ada yang main apus" pesan wkwkwk :'v_
-`.trim(), '', 'MATIKAN ANTI DELETE', ',on delete', {
+`.trim(), '', 'MATIKAN ANTI DELETE', ',off delete', {
       quoted: m.message,
       contextInfo: {
         mentionedJid: [m.participant]
@@ -599,16 +599,16 @@ ketik *.off desc* untuk mematikan pesan ini
 
 global.dfail = (type, m, conn) => {
   let msg = {
-    rowner: 'Perintah ini hanya dapat digunakan oleh _*Pemilik Bot*_',
-    owner: '*[❗]*  Perintah ini hanya dapat digunakan oleh _*Pemilik Bot*_',
+    rowner: 'Perintah ini hanya dapat digunakan oleh _*Owner Bot*_',
+    owner: '*[❗]*  Perintah ini hanya dapat digunakan oleh _*Owner Bot*_',
     mods: 'Perintah ini hanya dapat digunakan oleh _*Moderator*_',
     premium: 'Perintah ini hanya untuk pengguna _*Premium*_',
     group: 'Perintah ini hanya dapat digunakan di grup',
     private: 'Perintah ini hanya dapat digunakan di Chat Pribadi',
     admin: 'Perintah ini hanya untuk *Admin* grup',
     botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan perintah ini',
-    unreg: ' *「 NOT REGISTERED DETECTED 」* \nHalo kaka, Yuk Daftar Dulu Soalnya Anda Belum Terdaftar Di Database Enjela Nih\n\n *── Segera Registrasi Data Diri Anda ──* \n\nKetik : #daftar nama|umur\nContoh : #daftar Enjela|16',
-    nsfw: 'NSFW tidak aktif boskuhh >_<'
+    unreg: ' *「 NOT REGISTERED DETECTED 」* \nHalo kaka, Yuk Daftar Dulu Soalnya Anda Belum Terdaftar Di Database Nih\n\n *── Segera Registrasi Data Diri Anda ──* \n\nKetik : #daftar nama|umur\nContoh : #daftar Rian|17',
+    nsfw: 'NSFW tidak aktif'
   }[type]
   if (msg) return m.reply(msg)
 }
