@@ -1,7 +1,7 @@
 {
-  "name": "agusfamilia",
+  "name": "anfebn",
   "version": "3.2.1",
-  "description": "enjela-bot",
+  "description": "anfebn",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Fokusdotid/enjela-bot.git"
+    "url": "git+https://github.com/anfeb/afbn.git"
   },
   "keywords": [
     "whatsapp-bot"
   ],
-  "author": "Fokus Dot Id",
+  "author": "anfebn",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Fokusdotid/enjela-bot/issues"
+    "url": "https://github.com/anfeb/afbn/issues"
   },
-  "homepage": "https://github.com/Fokusdotid/enjela-bot",
+  "homepage": "https://github.com/anfeb/afbn",
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.2",
     "awesome-phonenumber": "^2.57.0",
