@@ -1,7 +1,7 @@
 let fs = require('fs')
 global.DeveloperMode = 'false' //true Or false
-global.owner = ['6282324892737','6283190790515','6281320170984'] // Letakan nomor kamu disini
-global.mods = ['6282324892737','6283190790515','6281320170984'] // Moderator?
+global.owner = ['628777234860','6285156692677'] // Letakan nomor kamu disini
+global.mods = ['628772343860','6285156691677'] // Moderator?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
 global.APIs = { // API Prefix
   // nama: 'https://website'
@@ -35,10 +35,10 @@ global.APIKeys = { // APIKey nya disini
 }
 
 // Sticker WM
-global.packname = 'ENJELA-BOT'
-global.author = 'Aguz Familia'
+global.packname = 'Sticker By'
+global.author = '@anfebn'
 
-global.wait = '_*tunggu..*_'
+global.wait = '_*Wait Kak*_'
 
 global.multiplier = 100 // Semakin tinggi, semakin sulit naik level
 
