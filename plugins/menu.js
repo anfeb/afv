@@ -148,11 +148,10 @@ let tags = {
   'owner': 'Owner',
   'nsfw': 'NSFW',
   'host': 'Host',
-  'advanced': 'Entah',
-  'info': 'Ingfo',
-  '': 'Sw Bot',
+  'advanced': 'No Catagory',
+  'info': 'Info',
   'image': 'Image',
-  'spammer': 'Spamm',
+  'spammer': 'Spam',
   'maker': 'Maker',
 }
 
@@ -217,12 +216,10 @@ let tags = {
 │◦➛ *Islam :* *${dateIslamic}*
 │◦➛ *Uptime :* *%uptime* (%muptime)
 ├──────────────────┈ ⳹
-│ Database: %rtotalreg dari %totalreg
-│ Owner: Fokus Dot Id
-│ *Note*: Jgn Culik ke gc sblum izin
-│ Donasi? ketik *.donasi* Yah:)
-│ *INFO :* *BOT UDAH AMAN RESET*
-╰━━━━━━━━━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙
+│ *Dont Forget Follow*
+│https://instagram.com/anfebn
+│ 
+
 %readmore`
     let header = conn.menu.header || '╭━━━━━ *「 %category 」* ━━━━━┈ ⳹\n│'
 
@@ -231,18 +228,8 @@ let tags = {
     let footer = conn.menu.footer || '╰━━━━━━━━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙'
 
     let after  = conn.menu.after  || (conn.user.jid == global.conn.user.jid ? '' : `Powered By @${global.conn.user.jid.split`@`[0]}`) + `╭━━━━━━━━━━━━━━━━━━━┈ ⳹
-│                *「 CREDIT 」* 
-│
-│ *◦➛ Allah SWT.
-│ *◦➛ Emak & Alm.Bapak
-│ *◦➛ Nurutomo* (Creator)
-│ *◦➛ Arifb* (Contributor)
-│ *◦➛ Aguz Familia* (Recode)
-│ *◦➛ Bochil-Gaming* (Rpg)
-│ *◦➛ Penyedia Apikey*
-│ *◦➛ Dan Pengguna Bot*
-╰━━━━━━━━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙
-`
+
+anfebn
 
     let _text  = before + '\n'
 
@@ -301,7 +288,7 @@ let tags = {
     
    let q = m.quoted ? m.quoted : m
     
-    await conn.send2Button(m.chat, q.contextInfo == undefined ? text.trim() : 'ketik *.ephe* untuk matikan pesan sementara supaya tombol bisa digunakan', 'Fokus Dot Id', 'PEMILIK BOT', '.owner', 'DONASI', '.donasi', { quoted: m })
+    await conn.send2Button(m.chat, q.contextInfo == undefined ? text.trim() : 'ketik *.ephe* untuk matikan pesan sementara supaya tombol bisa digunakan', 'anfebn', 'PEMILIK BOT', '.owner', 'DONASI', '.donasi', { quoted: m })
   } catch (e) {
 
     conn.reply(m.chat, 'Maaf, Menu Kami Sedang Error, Silahkan Coba Lagi Nanti', m)
