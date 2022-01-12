@@ -218,10 +218,10 @@ let tags = {
 │◦➛ *Uptime :* *%uptime* (%muptime)
 ├──────────────────┈ ⳹
 │ Database: %rtotalreg dari %totalreg
-│ Owner: Fokus Dot Id
-│ *Note*: Jgn Culik ke gc sblum izin
-│ Donasi? ketik *.donasi* Yah:)
-│ *INFO :* *BOT UDAH AMAN RESET*
+│ *follow me*
+│ *@anfebn*
+│
+│ 
 ╰━━━━━━━━━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙
 %readmore`
     let header = conn.menu.header || '╭━━━━━ *「 %category 」* ━━━━━┈ ⳹\n│'
