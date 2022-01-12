@@ -1,4 +1,4 @@
-﻿let { performance } = require('perf_hooks')
+let { performance } = require('perf_hooks')
 let util = require('util')
 let fetch = require('node-fetch');
 let { MessageType, mentionedJid } = require('@adiwajshing/baileys')
