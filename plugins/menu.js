@@ -231,16 +231,7 @@ let tags = {
     let footer = conn.menu.footer || '╰━━━━━━━━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙'
 
     let after  = conn.menu.after  || (conn.user.jid == global.conn.user.jid ? '' : `Powered By @${global.conn.user.jid.split`@`[0]}`) + `╭━━━━━━━━━━━━━━━━━━━┈ ⳹
-│                *「 CREDIT 」* 
-│
-│ *◦➛ Nurutomo* (Creator)
-│ *◦➛ Arifb* (Contributor)
-│ *◦➛ Aguz Familia*
-│ *◦➛ Bochil-Gaming*
-│ *◦➛ Arifi Razzaq*
-│ *◦➛ X-Team*
-│ *◦➛ Zahirr*
-│ *◦➛ Dan Pengguna Bot*
+│               
 ╰━━━━━━━━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙
 `
 
