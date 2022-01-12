@@ -292,7 +292,7 @@ let tags = {
 
    let q = m.quoted ? m.quoted : m
 
-    await conn.send2Button(m.chat, q.contextInfo == undefined ? text.trim() : 'ketik *.ephe* untuk matikan pesan sementara supaya tombol bisa digunakan', 'Fokus Dot Id', 'PEMILIK BOT', '.owner', 'DONASI', '.donasi', { quoted: m })
+    await conn.send2Button(m.chat, q.contextInfo == undefined ? text.trim() : 'ketik *.ephe* untuk matikan pesan sementara supaya tombol bisa digunakan', '@anfebn', 'PEMILIK BOT', '.owner', 'DONASI', '.donasi', { quoted: m })
   } catch (e) {
 
     conn.reply(m.chat, 'Maaf, Menu Kami Sedang Error, Silahkan Coba Lagi Nanti', m)
