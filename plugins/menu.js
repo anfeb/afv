@@ -110,17 +110,17 @@ let package = JSON.parse(fs.readFileSync(path.join(__dirname, '../package.json')
 
     try {
 
-    
+
 
     rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length
 
     } catch {
 
-  
+
 
     }
 
-  
+
 
 let tags = {
   'main': 'Main',
@@ -148,10 +148,11 @@ let tags = {
   'owner': 'Owner',
   'nsfw': 'NSFW',
   'host': 'Host',
-  'advanced': 'No Catagory',
-  'info': 'Info',
+  'advanced': 'Entah',
+  'info': 'Ingfo',
+  '': 'Sw Bot',
   'image': 'Image',
-  'spammer': 'Spam',
+  'spammer': 'Spamm',
   'maker': 'Maker',
 }
 
@@ -216,10 +217,12 @@ let tags = {
 │◦➛ *Islam :* *${dateIslamic}*
 │◦➛ *Uptime :* *%uptime* (%muptime)
 ├──────────────────┈ ⳹
-│ *Dont Forget Follow*
-│https://instagram.com/anfebn
-│ 
-
+│ Database: %rtotalreg dari %totalreg
+│ Owner: Fokus Dot Id
+│ *Note*: Jgn Culik ke gc sblum izin
+│ Donasi? ketik *.donasi* Yah:)
+│ *INFO :* *BOT UDAH AMAN RESET*
+╰━━━━━━━━━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙
 %readmore`
     let header = conn.menu.header || '╭━━━━━ *「 %category 」* ━━━━━┈ ⳹\n│'
 
@@ -228,8 +231,18 @@ let tags = {
     let footer = conn.menu.footer || '╰━━━━━━━━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙'
 
     let after  = conn.menu.after  || (conn.user.jid == global.conn.user.jid ? '' : `Powered By @${global.conn.user.jid.split`@`[0]}`) + `╭━━━━━━━━━━━━━━━━━━━┈ ⳹
-
-anfebn
+│                *「 CREDIT 」* 
+│
+│ *◦➛ Nurutomo* (Creator)
+│ *◦➛ Arifb* (Contributor)
+│ *◦➛ Aguz Familia*
+│ *◦➛ Bochil-Gaming*
+│ *◦➛ Arifi Razzaq*
+│ *◦➛ X-Team*
+│ *◦➛ Zahirr*
+│ *◦➛ Dan Pengguna Bot*
+╰━━━━━━━━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙
+`
 
     let _text  = before + '\n'
 
@@ -285,10 +298,10 @@ anfebn
 
     ppnya = global.thumbnail ? global.thumbnail : Buffer.alloc(0)
 
-    
+
    let q = m.quoted ? m.quoted : m
-    
-    await conn.send2Button(m.chat, q.contextInfo == undefined ? text.trim() : 'ketik *.ephe* untuk matikan pesan sementara supaya tombol bisa digunakan', 'anfebn', 'PEMILIK BOT', '.owner', 'DONASI', '.donasi', { quoted: m })
+
+    await conn.send2Button(m.chat, q.contextInfo == undefined ? text.trim() : 'ketik *.ephe* untuk matikan pesan sementara supaya tombol bisa digunakan', 'Fokus Dot Id', 'PEMILIK BOT', '.owner', 'DONASI', '.donasi', { quoted: m })
   } catch (e) {
 
     conn.reply(m.chat, 'Maaf, Menu Kami Sedang Error, Silahkan Coba Lagi Nanti', m)
@@ -331,4 +344,4 @@ function clockString(ms) {
 
   return [h, m, s].map(v => v.toString().padStart(2, 0) ).join(':')
 
-}
+} 
