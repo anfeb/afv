@@ -1,4 +1,4 @@
-let { performance } = require('perf_hooks')
+rformance } = require('perf_hooks')
 let fs = require ('fs')
 let path = require('path')
 let handler  = async (m, { conn, usedPrefix }) => { 
@@ -11,9 +11,9 @@ let handler  = async (m, { conn, usedPrefix }) => {
   let neww = Math.round(performance.now())
   conn.reply(m.chat, `
 ╭─ꕥ *INGFO* ꕥ─✾
-│•> *Nama:* ENJELA-BOT
-│•> *Owner:* Fokus Dot Id
-│•> *Wea:* wa.me/6282324892737
+│•> *Nama:* anfebn
+│•> *Owner:* anfebn
+│•> *Wea:* wa.me/6287773973701
 │•> *Prefix:* ' ${usedPrefix} '
 │•> *Menu:* ${usedPrefix}menu
 │•> *Ping:* ${neww - old} *ms*
@@ -22,8 +22,8 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ╰─────────────
 
 ╭─ꕥ *DONASI* ꕥ─✾
-│•> Dana : 081320170984
-│•> Pulsa: 081320170984
+│•> Dana : 087773973701
+│•> Pulsa: 087773973701
 │ *Note :* Disarankan Ke Dana
 │ *Mau Donasi?*
 │ *Hubungi owner yah :v*
@@ -33,14 +33,13 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ➤ Tolong Gunakan Delay Jangan Spam Saat Menggunakan Bot
 ➤ Call/VC Bot Auto Block.
 ➤ Chat Bot? Sewajarnya
-➤ Mau Menambahkan Playlist Musik Di Menu Tebaklagu? https://open.spotify.com/playlist/3Rpt0QWIdS8mKKrLRg2lKM?si=XvI7g8EVQ0aV0M95jGhm1w&utm_source=copy-link&dl_branch=1
 ➤ Jangan Call/VC Bot Kalau Tidak aktif.
 ➤ Bot tidak aktif 24 jam, jadi tergantung kalau ownernya lagi ada waktu botnya juga on.
 ➤ Kami tidak menyimpan gambar, video, file, audio, dan dokumen yang anda kirim
 ➤ Kami tidak akan pernah meminta anda untuk memberikan informasi pribadi
 ➤ Jika menemukan Bug/Error silahkan langsung lapor ke Owner bot
 ➤ Apapun yang anda perintah pada bot ini, KAMI TIDAK AKAN BERTANGGUNG JAWAB!
-✾───────ꕥ *ENJELA-BOT* ꕥ───────✾
+✾───────ꕥ *anfebn* ꕥ───────✾
 `.trim(), m)
 }
 handler.help = ['info']
