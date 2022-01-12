@@ -220,7 +220,7 @@ let tags = {
 │ Database: %rtotalreg dari %totalreg
 │ *follow me*
 │ *@anfebn*
-│
+│ *https://instagram.com/anfebn*
 │ 
 ╰━━━━━━━━━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙
 %readmore`
